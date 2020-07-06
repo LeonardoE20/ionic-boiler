@@ -6,7 +6,12 @@ import { Component, OnInit } from "@angular/core";
 	styleUrls: ["./toc.page.scss"]
 })
 export class TocPage implements OnInit {
-	public chapters = [];
+	public chapters = [
+		{
+			title: "Chpater 1 | The Beginning",
+			url: "/chapter1"
+		}
+	];
 	constructor() {}
 
 	ngOnInit() {}
