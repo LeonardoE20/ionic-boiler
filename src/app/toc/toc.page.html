@@ -6,7 +6,7 @@
 
 <ion-content>
   <ion-list *ngFor="let chapter of chapters">
-    <ion-item>
+    <ion-item [routerDirection]="'root'" [routerLink]="['/chapter1']">
       {{chapter.title}}
     </ion-item>
   </ion-list>
