@@ -8,7 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class TocPage implements OnInit {
 	public chapters = [
 		{
-			title: "Chpater 1 | The Beginning",
+			title: "Chapter 1 | The Beginning",
 			url: "/chapter1"
 		}
 	];
